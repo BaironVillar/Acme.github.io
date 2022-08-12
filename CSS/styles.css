@@ -39,6 +39,10 @@ img {max-width: 100%;}
 
 .b-b {box-shadow: inherit 2px 2px 4px black;}
 
+.fila {
+    display: flex;
+    padding: 2rem 1rem;
+}
 
 
 /* Animación */
@@ -185,24 +189,65 @@ header.transparente nav a:hover {
 }
 
 .informacion div p {
+    font-size: 1.2em;
     padding: 30px;
     color: #2C3333;
 }
 
 .informacion div img {
+    margin: 0 30px;
     width: 690px;
     height: auto;
     box-shadow: 2px 2px 4px black;
 }
+
+/* parallax */
+
 
 .parallax {
     background-image: url('../img/property5.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 3rem 2rem;
 }
 
+.parallax div {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1.5rem;
+}
 
+.parallax div p {
+    font-size: 1.6rem;
+    color: #2C3333;
+    text-align: center;
+    font-weight: bold;
+}
 
+/* Sobre nosotros */
+
+.nosotros {
+    width: 100%;
+    height: 76vh;
+    text-align: center;
+}
+
+.nosotros h2 {
+    margin: 100px;
+    font-size: 3.5em;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.nosotros p {
+    margin: 0 50px;
+    margin-bottom: 100px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #2C3333;
+    height: 260px;
+}
 
