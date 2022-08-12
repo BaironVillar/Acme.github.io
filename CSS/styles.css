@@ -175,12 +175,12 @@ header.transparente nav a:hover {
 
 .informacion {
     width: 100%;
-    height: 132vh;
+    height: 100%;
     background-color: white;
 }
 
 .informacion div {
-    padding-top: 75px;
+    padding: 75px 0;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -229,7 +229,7 @@ header.transparente nav a:hover {
 
 .nosotros {
     width: 100%;
-    height: 76vh;
+    height: 100%;
     text-align: center;
 }
 
@@ -250,4 +250,6 @@ footer {
     background-color: #2C3333;
     height: 260px;
 }
+
+
 
